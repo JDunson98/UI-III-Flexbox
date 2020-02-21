@@ -66,15 +66,16 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	padding: 3%;
 	color: lightgray;
+
 }
 
 .logo {
@@ -125,13 +126,13 @@ h1 {
 	text-align: center;
 }
 
-.button {
+.button1 {
 	font-size: 25px;
 	border: 2px solid lightgray;
 	padding: 5px 15px;
 }
 
-.button:hover {
+.button1:hover {
 	border: 2px solid black;
 }
 
@@ -149,7 +150,9 @@ h2 {
 .top-text {
 	display: flex;
 	text-align: left;
-	padding-left: 10%;
+	justify-content: space-between;
+	align-items: flex-start;
+	
 	margin: 20px 0px;
 }
 
@@ -164,14 +167,14 @@ h2 {
 
 .middle-img {
 	display: flex;
-	width: 85%;
-	padding-left: 10%;
+	width: 100%;
+	
 }
 
 .bottom-text {
 	display: flex;
+	justify-content: space-between;
 	text-align: left;
-	padding-left: 10%;
 	margin: 20px 0px;
 }
 
@@ -190,7 +193,102 @@ h2 {
 	padding-bottom: 5%;
 }
 
+/*SERVICES PAGE*/
+
 .services-header-img {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 30%;
 }
+
+.service-section {
+	padding: 2% 0%;
+}
+
+.service-section h3 {
+	font-size: 30px;
+}
+
+.service-section p {
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.service-info {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.service-info-box {
+	background-color: lightgray;
+	border: 1px solid;
+	width: 45%;
+	height: 50%;
+	margin: 2% 0%;
+	padding: 5px;
+}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 1px solid;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	width: 20%;
+	height: 5%;
+}
+
+hr {
+	border: 2px solid;
+}
+
+.service-facts {
+	margin: 2% 0%;
+	
+	flex-direction: row-reverse;
+	width: 40%;
+	height: 40%;
+	vertical-align: top;
+}
+
+.service-facts div {
+	width: 100%;
+}
+
+.service-facts p {
+	text-align: left;
+	font-weight: bold;
+	line-height: 20px; 
+}
+
+.service-facts h2 {
+	font-size: 20px;
+}
+
+.services-info-img {
+	float: right;
+	height: 50%;
+	margin-bottom: 20%;
+}
+
+ul {
+	padding-left: 15px;
+}
+
+li {
+	font-weight: bold;
+	line-height: 30px;
+	list-style: square;
+}
+
+.copyright2 {
+	text-align: center;
+	padding-top: 15px;
+}
+
