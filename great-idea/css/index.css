@@ -121,7 +121,7 @@ h1 {
 	display: flex;
 	position: absolute;
 	padding-left: 50%;
-	margin-bottom: 75px;
+	margin-bottom: 85px;
 	/*border: 2px solid black;*/
 	text-align: center;
 }
@@ -236,6 +236,7 @@ h2 {
 .button2 {
 	background-color: white;
 	color: black;
+	border-radius: 10px;
 	border: 1px solid;
 	text-align: center;
 	margin: 5px;
@@ -290,5 +291,6 @@ li {
 .copyright2 {
 	text-align: center;
 	padding-top: 15px;
+	padding-left: 200px;
 }
 
